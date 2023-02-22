@@ -1,7 +1,7 @@
 name: main
 on:
   schedule:
-    - cron: "45 02 * * *"
+    - cron: "*/1 * * * *"
 
 jobs:
   sync_with_upstream:
